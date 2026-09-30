@@ -1,0 +1,40 @@
+baseURL: https://ra0van.github.io/learning-in-public/
+languageCode: en-us
+title: Learning in Public — GPU, media pipelines, performance
+theme: hugo-geekblog
+enableEmoji: true
+enableGitInfo: true
+
+services:
+  rss:
+    limit: 20
+
+params:
+  geekblogAuthor: ra0van
+  geekblogDescription: >
+    Staff engineer learning GPU computing, video-encoding performance and ML
+    inference systems in public. Weekly notes, benchmarks and paper breakdowns.
+  geekblogLegalContainee: "Content: CC BY 4.0. Code: MIT."
+  geekblogAnchorLeft: true
+  geekblogAnchorRight: false
+  geekblogTagsToTopMenu: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: monokai
+    lineNos: true
+
+menu:
+  page:
+    - name: Posts
+      pageRef: /posts/
+      weight: 10
+    - name: Benchmarks
+      pageRef: /benchmarks/
+      weight: 20
+    - name: About
+      pageRef: /about/
+      weight: 30
