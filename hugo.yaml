@@ -1,4 +1,4 @@
-baseURL: https://ra0van.github.io/
+baseURL: https://ra0van.github.io/learning-in-public/
 locale: en-us
 title: Learning in Public — GPU, media pipelines, performance
 theme: hugo-geekblog
